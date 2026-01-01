@@ -102,27 +102,27 @@ const blogPosts = [
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
+    items: ["React.js", "Next.js", "TypeScript", "Angular"],
   },
   {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    category: "ML/AI",
+    items: ["TensorFlow", "Gen AI", "OpenCV", "NLP", "LLM", "RAG"],
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["Tailwind CSS", "CSS3", "HTML5"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Django", "Python"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB", "PostgreSQL", "MySQL"],
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    items: ["Git", "GitHub", "Docker", "AWS", "Kubernetes"],
   },
 ];
 
@@ -136,24 +136,24 @@ const socials = [
   },
   {
     id: 2,
-    text: "Platform",
-    icon: "/icons/atom.svg",
-    bg: "#4bcb63",
-    link: "",
-  },
-  {
-    id: 3,
-    text: "Twitter/X",
-    icon: "/icons/twitter.svg",
-    bg: "#ff866b",
-    link: "https://x.com/VaibhavSuman00",
-  },
-  {
-    id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
     link: "https://www.linkedin.com/in/vaibhav-suman/",
+  },
+  {
+    id: 3,
+    text: "Google Scholar",
+    icon: "/icons/atom.svg",
+    bg: "#4bcb63",
+    link: "https://scholar.google.com/citations?user=CJbdLegAAAAJ&hl=en",
+  },
+  {
+    id: 4,
+    text: "Twitter/X",
+    icon: "/icons/twitter.svg",
+    bg: "#ff866b",
+    link: "https://x.com/VaibhavSuman00",
   },
 ];
 
@@ -406,7 +406,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/vaibhav-3.jpg",
+      imageUrl: "/images/vaibhav-3.JPG",
     },
     {
       id: 3,
@@ -427,10 +427,10 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "/images/vaibhav.png",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey! I'm Vaibhav 👋, a Full Stack Engineer who loves building scalable, intelligent systems that blend cutting-edge AI with rock-solid engineering.",
+        "I specialize in Python, JavaScript, React, and AWS—with a sweet spot for machine learning, cloud architecture, and crafting seamless user experiences.",
+        "I'm passionate about solving real problems: from detecting fake news with 98% accuracy (published in Springer!) to building production-grade ML pipelines and winning national hackathons.",
+        "When I'm not deploying containerized apps or training deep learning models, you'll find me mentoring peers, exploring the latest in AI/LLMs, or debugging at 2AM with way too much coffee ☕😅",
       ],
     },
   ],

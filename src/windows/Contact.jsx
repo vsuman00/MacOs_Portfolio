@@ -18,7 +18,16 @@ const Contact = () => {
         />
         <h3>Let's Connect</h3>
         <p>Got an Idea? A bug to squash? Or just wanna talk tech? I'm in.</p>
-        <p>vaibhavsuman00@gmail.com</p>
+        <p className="font-bold text-sm">
+          Email:{" "}
+          <a
+            href="mailto:vaibhavsuman5@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            vaibhavsuman5@gmail.com
+          </a>
+        </p>
         <ul>
           {socials.map(({ id, bg, link, icon, text }) => (
             <li key={id} style={{ backgroundColor: bg }}>
