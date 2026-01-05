@@ -77,18 +77,19 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
+    date: "Jan 2, 2026",
     title:
       "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
     image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+    link: "https://medium.com/@vaibhavsuman00/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it-144870ec576a",
   },
   {
     id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
+    date: "Jan 4, 2026",
+    title:
+      "Prompt Engineering is Dead! (Or Is It? What Developers REALLY Need to Know Now)",
     image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    link: "https://medium.com/@vaibhavsuman00/prompt-engineering-is-dead-or-is-it-what-developers-really-need-to-know-now-1859f6e8a9fd",
   },
   {
     id: 3,
@@ -150,10 +151,10 @@ const socials = [
   },
   {
     id: 4,
-    text: "Twitter/X",
-    icon: "/icons/twitter.svg",
+    text: "Medium",
+    icon: "/icons/medium.svg",
     bg: "#ff866b",
-    link: "https://x.com/VaibhavSuman00",
+    link: "https://medium.com/@vaibhavsuman00",
   },
 ];
 
@@ -188,19 +189,19 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/certificates/ibm.png",
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/certificates/AWS.png",
   },
   {
     id: 3,
-    img: "/images/gal3.png",
+    img: "/certificates/Red_hat.png",
   },
   {
     id: 4,
-    img: "/images/gal4.png",
+    img: "/certificates/cisco.png",
   },
 ];
 
