@@ -381,6 +381,59 @@ const WORK_LOCATION = {
         // },
       ],
     },
+
+    // ▶ Project 4
+    {
+      id: 8,
+      name: "Chat Assistance",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-50 left-80",
+      windowPosition: "top-[33vh] left-7",
+      children: [
+        {
+          id: 1,
+          name: "ChatDalta.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "ChatAssistance is a robust conversational platform built to streamline user interactions and automated support.",
+            "It utilizes advanced language models to understand user intent, providing accurate, context-aware responses in real-time.",
+            "Designed as a virtual support agent, it handles inquiries 24/7, reducing wait times and enhancing the overall user experience.",
+            "The project features a sleek, responsive UI and integrates securely with backend services to manage conversation history and data flow.",
+          ],
+        },
+        {
+          id: 2,
+          name: "chatdelta.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://chatdelta.vercel.app/",
+          position: "top-10 right-20",
+        },
+        {
+          id: 4,
+          name: "chatdelta.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/project-4.png",
+        },
+        // {
+        //   id: 5,
+        //   name: "Design.fig",
+        //   icon: "/images/plain.png",
+        //   kind: "file",
+        //   fileType: "fig",
+        //   href: "https://google.com",
+        //   position: "top-60 right-20",
+        // },
+      ],
+    },
   ],
 };
 
